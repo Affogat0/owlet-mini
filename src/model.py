@@ -30,3 +30,4 @@ class TinyViTGaze(nn.Module):
 def build_model(device="cuda"):
     model = TinyViTGaze()
     return model.to(device)
+

@@ -6,4 +6,7 @@ __pycache__/
 data/raw/*
 data/processed/*
 runs/
+checkpoints/
+*.pt
+*.pth
 
