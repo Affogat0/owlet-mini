@@ -12,3 +12,11 @@ a 3-class subset of the NIT Karnataka eye-tracking dataset (left / center / righ
 These results use a simple train/val split and minimal hyperparameter tuning, and are
 intended as a proof-of-concept for the end-to-end pipeline (data → ViT → training →
 checkpoint → inference).
+
+After going through more epochs, the accuracy is continuing to rise.
+
+| Epochs | Train Accuracy | Val Accuracy | Best Epoch |
+|--------|----------------|--------------|------------|
+| 15     | ~0.97          | ~0.90        | 15         |
+
+
