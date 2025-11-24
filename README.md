@@ -20,3 +20,9 @@ After going through more epochs, the accuracy is continuing to rise.
 | 15     | ~0.97          | ~0.90        | 15         |
 
 
+### Dataset Citation
+
+This project uses the NIT Karnataka "eye_tracker_data" dataset:
+
+Bhat, Shravan; Upadhyaya, Skanda; Rao, Siddhanth; Chemmangat, Krishnan (2023).  
+*eye_tracker_data*. Mendeley Data, V1. https://doi.org/10.17632/vy4n28334m.1
