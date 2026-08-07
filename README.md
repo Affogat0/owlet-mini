@@ -31,10 +31,10 @@ Inference on held-out val split
 ## Running it
 
     # Train
-    python3 src/<train_script>.py --epochs 15
+    python3 -m src.train
 
-    # Run inference on a saved checkpoint
-    python3 src/<inference_script>.py --checkpoint <path_to_checkpoint>
+    # Run inference on a single image
+    python3 -m src.infer_image --image <path_to_image> --checkpoint <path_to_checkpoint>
 
 Notebooks in `notebooks/` walk through data exploration and result
 visualization if you'd rather step through it interactively.
@@ -55,7 +55,7 @@ After going through more epochs, the accuracy is continuing to rise.
 | 15     | ~0.97          | ~0.90        | 15         |
 
 The jump from 3 → 15 epochs (val accuracy 0.38 → 0.90) came from
-letting the classifier head converge further on a frozen backbone
+letting the classifier head converge further on a frozen backbone. No data augmentation, regularization, or LR scheduling was used, just additional training epochs.
 Given the small validation set, treat the 0.90 figure as a proof of concept signal rather than a benchmark result.
 
 These results use a simple train/val split and minimal hyperparameter tuning, and are
