@@ -13,12 +13,13 @@ backbone performs on the same kind of task with minimal fine-tuning.
 
 ```
 Raw images (NIT Karnataka dataset) 
-↓ 
+            ↓ 
 Preprocessing / labeling 
-↓ ViT-B/16 (frozen backbone, trainable classifier head) 
-↓ 
+            ↓ 
+ViT-B/16 (frozen backbone, trainable classifier head) 
+            ↓ 
 Training loop (checkpointing) 
-↓ 
+            ↓ 
 Inference on held-out val split
 ```
 
