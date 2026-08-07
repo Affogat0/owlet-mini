@@ -11,7 +11,7 @@ backbone performs on the same kind of task with minimal fine-tuning.
 
 ## Pipeline
 
-'''text
+```
 Raw images (NIT Karnataka dataset) 
 ↓ 
 Preprocessing / labeling 
@@ -20,7 +20,7 @@ Preprocessing / labeling
 Training loop (checkpointing) 
 ↓ 
 Inference on held-out val split
-'''
+```
 
 ## Setup
 
